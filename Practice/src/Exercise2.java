@@ -1,7 +1,7 @@
 public class Exercise2 {
 
-    // PROBLEM: Find the smallest missing element from a sorted array,
-    // given time complexity equal O(log(n))
+    // PROBLEM: Find the smallest missing element from the sorted array that has the logic: 
+    // the value stored in an index is equal to the index itself, given time complexity equal O(log(n)). 
 
     int[] inputArray;
     int result;
