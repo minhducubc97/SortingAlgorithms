@@ -3,9 +3,9 @@
 //        If r > l
 //        1. Find the middle point to divide the array into two halves:
 //        middle m = (l+r)/2
-//        2. Call mergeSort for first half:
+//        2. Call mergeSortOperation for first half:
 //        Call mergeSortOperation(arr, l, m)
-//        3. Call mergeSort for second half:
+//        3. Call mergeSortOperation for second half:
 //        Call mergeSortOperation(arr, m+1, r)
 //        4. Merge the two halves sorted in step 2 and 3:
 //        Call merge(arr, l, m, r)
